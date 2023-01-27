@@ -1,0 +1,545 @@
+.contenedor {
+  display: flex;
+  flex-direction: column;
+}
+
+.barra-navegacion {
+  display: flex;
+  position: absolute;
+  top: 25px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+
+.logo-sunny {
+  margin-left: 30px;
+  height: 30px;
+}
+
+.cont-menus {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  height: 50px;
+  margin: 0 30px 0 0;
+}
+
+.menus {
+  color: hsl(0, 0%, 100%);
+  list-style: none;
+  cursor: pointer;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.menus.contact {
+  display: flex;
+  justify-content: center;
+  background-color: hsl(0, 0%, 100%);
+  align-items: center;
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  color: hsl(212, 27%, 19%);
+  width: 120px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.menus.contact:hover {
+  background-color: hsl(199, 92%, 70%);
+  color: hsl(0, 0%, 100%);
+}
+
+.cont-cabeza {
+  justify-content: center;
+  display: flex;
+  background-image: url(images/desktop/image-header.jpg);
+  background-position: center;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1070px;
+}
+
+.cabeza-text {
+  color: hsl(0, 0%, 100%);
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  font-size: 3rem;
+  letter-spacing: 10px;
+  position: relative;
+  top: 300px;
+}
+
+.secciones {
+  display: flex;
+  width: 100%;
+  height: 800px;
+}
+
+.sec-contenido {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 50%;
+  height: 100%;
+  padding: 12.5% 9%;
+}
+
+.sec-contenido h2 {
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  font-size: 3rem;
+  color: hsl(212, 27%, 19%);
+  margin: 0;
+  padding: 0;
+}
+
+.sec-contenido p {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-align: left;
+  line-height: 1.5;
+  color: hsl(213, 9%, 39%);
+}
+
+.sec-contenido a {
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: hsl(212, 27%, 19%);
+  margin: 0;
+  text-decoration: none;
+}
+
+
+.sec-contenido a.huevo {
+  border-bottom: solid 8px hsl(51, 100%, 75%);
+}
+
+.sec-contenido a.huevo:hover {
+  border-bottom: solid 8px hsl(51, 100%, 49%);
+}
+
+.sec-contenido a.copa {
+  border-bottom: solid 8px hsl(7, 99%, 85%);
+}
+
+.sec-contenido a.copa:hover {
+  border-bottom: solid 8px hsl(7, 99%, 70%);
+}
+
+.cont-imagen {
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+  height: 100%;
+  background-color: white;
+}
+
+.cont-imagen.huevo {
+  background-image: url(images/desktop/image-transform.jpg);
+}
+
+.cont-imagen.copa {
+  background-image: url(images/desktop/image-stand-out.jpg);
+}
+
+.sec-contenido.ceresa {
+  background-image: url(images/desktop/image-graphic-design.jpg);
+  background-position: center;
+  background-size: auto 800px;
+  justify-content: flex-end;
+  align-items: center;
+  /* width: 50%; */
+  height: 100%;
+  padding: 4% 12%;
+}
+
+.sec-contenido.ceresa h2 {
+  text-align: center;
+  color: hsl(167, 40%, 24%);
+}
+
+.sec-contenido.ceresa p {
+  text-align: center;
+  color: hsl(167, 40%, 24%);
+}
+
+.sec-contenido.mandarina {
+  background-image: url(images/desktop/image-photography.jpg);
+  background-position: center;
+  background-size: auto 800px;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  padding: 4% 11%;
+}
+
+.sec-contenido.mandarina h2 {
+  text-align: center;
+  color: hsl(198, 62%, 26%);
+}
+
+.sec-contenido.mandarina p {
+  text-align: center;
+  color: hsl(198, 62%, 26%);
+}
+
+.seccion-clientes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding: 120px 0;
+  box-sizing: border-box;
+}
+
+.sec-clns-tlt {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 10px;
+  color: hsl(232, 10%, 55%);
+  padding: 0;
+  margin: 0;
+  margin-bottom: 100px;
+}
+
+.clientes-perfil-contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80%;
+}
+
+.cliente-perfil {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 20px;
+}
+
+.cliente-perfil img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.cliente-perfil p {
+  text-align: center;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: hsl(212, 27%, 19%);
+  line-height: 1.5;
+}
+
+.clientes-perfil-info {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clientes-perfil-info h2 {
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  font-size: 1.4rem;
+  color: hsl(212, 27%, 19%);
+  margin: 0;
+}
+
+.clientes-perfil-info h3 {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: hsl(213, 9%, 39%);
+}
+
+.seccion-galeria {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.galeria-imagenes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 591px;
+}
+
+.glr-img {
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+  height: 100%;
+}
+
+.glr-img.leche {
+  background-image: url(images/desktop/image-gallery-milkbottles.jpg);
+}
+
+.glr-img.naranja {
+  background-image: url(images/desktop/image-gallery-orange.jpg);
+}
+
+.glr-img.cono {
+  background-image: url(images/desktop/image-gallery-cone.jpg);
+}
+
+.glr-img.azucar {
+  background-image: url(images/desktop/image-gallery-sugarcubes.jpg);
+}
+
+.pies-pagina {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: hsl(168, 34%, 60%);
+  width: 100%;
+  height: 450px;
+}
+
+.pies-logo {
+  height: 40px;
+}
+
+.pies-menus {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.pies-menus-opciones {
+  list-style: none;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: hsl(168, 34%, 41%);
+  margin: 0 30px;
+  cursor: pointer;
+}
+
+.pies-menus-opciones:hover {
+  color: hsl(0, 0%, 100%);
+}
+
+.pies-redes-sociales {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.pies-redes-iconos {
+  list-style: none;
+  margin: 0 15px;
+}
+
+.pies-redes-iconos img {
+  height: 30px;
+}
+
+@media (max-width: 700px) {
+  .boton-menu-lateral {
+    background-image: url(images/icon-menu.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+  }
+
+  .cont-menus {
+    display: none;
+  }
+
+  .cont-menus.llave {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: hsl(0, 0%, 100%);
+    width: 80vw;
+    height: 80vw;
+    top: 50px;
+    box-sizing: border-box;
+    margin: 10vw;
+    padding: 0;
+    z-index: 1;
+  }
+
+  .menus {
+    color: hsl(213, 9%, 39%);
+  }
+
+  .menus.contact {
+    background-color: hsl(51, 100%, 49%);
+  }
+
+  .cont-cabeza {
+    background-image: url(images/mobile/image-header.jpg);
+    height: 145vw;
+    text-align: center;
+  }
+  
+  .cabeza-text {
+    font-size: 2rem;
+    top: 150px;
+  }
+
+  .secciones {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .secciones.huevo {
+    flex-direction: column-reverse;
+  }
+
+  .sec-contenido {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    padding: 20% 20px;
+  }
+
+  .sec-contenido h2 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  .sec-contenido p {
+    font-size: 1.13rem;
+    text-align: center;
+  }
+
+  .sec-contenido a {
+    font-size: 1.2rem;
+  }
+
+  .cont-imagen {
+    width: 100vw;
+    height: 83vw;
+  }
+
+  .cont-imagen.huevo {
+    background-image: url(images/mobile/image-transform.jpg);
+    background-size: 100%;
+  }
+
+  .cont-imagen.copa {
+    background-image: url(images/mobile/image-stand-out.jpg);
+    background-size: 100%;
+  }
+  
+  .sec-contenido.ceresa {
+    background-image: url(images/mobile/image-graphic-design.jpg);
+    background-size: 100%;
+    width: 100vw;
+    height: 160vw;
+  }
+
+  .sec-contenido.mandarina {
+    background-image: url(images/mobile/image-photography.jpg);
+    background-size: 100%;
+    width: 100vw;
+    height: 160vw;
+  }
+
+  .seccion-clientes {
+    padding: 80px 0;
+  }
+
+  .sec-clns-tlt {
+    font-size: .9rem;
+    letter-spacing: 5px;
+    margin-bottom: 40px;
+  }
+
+  .clientes-perfil-contenedor {
+    flex-direction: column;
+  }
+
+  .cliente-perfil {
+    margin: 20px 0;
+  }
+
+  .cliente-perfil p {
+  font-size: 1.04rem;
+  }
+
+  .pies-pagina {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 60px;
+    justify-content: space-between;
+  }
+
+  .pies-menus {
+    width: 100%;
+    justify-content: space-between;
+    padding: 0;
+  }
+  
+  .pies-menus-opciones {
+    margin: 0;
+  }
+
+  .seccion-galeria {
+    flex-direction: column;
+    background-color: red;
+  }
+
+  .galeria-imagenes {
+    width: 100vw;
+    height: 49vw;
+  }
+
+  .glr-img {
+    background-size: 100%;
+  }
+
+  .glr-img.leche {
+    background-image: url(images/mobile/image-gallery-milkbottles.jpg);
+  }
+
+  .glr-img.naranja {
+    background-image: url(images/mobile/image-gallery-orange.jpg);
+  }
+
+  .glr-img.cono {
+    background-image: url(images/mobile/image-gallery-cone.jpg);
+  }
+
+  .glr-img.azucar {
+    background-image: url(images/mobile/image-gallery-sugar-cubes.jpg);
+  }
+}
